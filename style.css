@@ -1,0 +1,239 @@
+*{
+    margin : 0;
+    padding : 0;
+    outline : 0;
+}
+
+body{
+    background-image: url(./images/interior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position : center center;
+    overflow : hidden;
+    
+
+}
+
+.nav-items{
+    display : flex;
+    flex-direction: row;
+    color : #ffffff;
+    justify-content: center;
+    align-items: center;
+    gap : 110px;
+    font-size: 25px;
+    
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+#logo{
+    color: #ffffff;
+    position: relative;
+    top : 50px;
+    left: 35px;
+    font-size: 20px;
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left : 1300px;
+    color: #ffffff;
+    bottom : 25px;
+}
+.call h5{
+    font-size: 17px;
+}
+
+.telephone{
+    width : 20px;
+   position: relative;
+   bottom : 35px;
+   right : 35px;
+   width : 25px;
+}
+
+
+.main-section{
+    margin-top: 50px;
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-around;
+    color : #ffffff;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    margin-top: 30px;
+    font-size: 40px;
+    width : 750px;
+}
+
+.heading button{
+    position : relative;
+    color : #ffffff;
+    font-size : 20px;
+    background: transparent;
+    border-color: #ffffff;
+    border-radius : 40px;
+    padding : 20px 50px;
+    top : 50px;
+}
+
+.right-section{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-upper{
+    display : flex;
+    flex-direction: column;
+    width : 265px;
+    background-color: rgba(255, 255, 255, .2);
+    
+
+}
+
+.puzzle{
+    position : relative;
+    right : 75px;
+    bottom : 5px;
+}
+
+.box-image{
+    padding : 25px 20px;
+}
+
+.box-content{
+    padding : 0px 10px 20px;
+}
+
+.box-lower{
+    position : relative;
+    top : 85px;
+    right : 350px;
+    display : flex; 
+    flex-direction: column;
+    width : 265px;
+    background-color: rgba(255, 255, 255, .2)
+}
+
+.light{
+    position : relative;
+    right : 65px;
+    bottom : 5px;
+    height : 35px;
+}
+
+.line-lower{
+    background-color: #ffffff;;
+    height : 1px;
+    width : 80px;
+    position : relative;
+    left : 265px;
+    bottom : 100px;
+}
+
+.circle-lower{
+    background-color: #ffffff;
+    border-radius: 50%;
+    height : 20px;
+    width : 20px;
+    position : relative;
+    left : 345px;
+    bottom : 110px;
+   
+}
+
+.line-upper{
+    background-color: #ffffff;;
+    height : 55px;
+    width : 1px;
+    position : relative;
+    left : 185px;
+    
+}
+
+.circle-upper{
+    background-color: #ffffff;
+    border-radius: 50%;
+    height : 20px;
+    width : 20px;
+    position : relative;
+    left : 175px;
+   
+}
+
+.horizontal-line{
+    height : 3px;
+    width : 1050px;
+    background-color: #ffffff;
+    position: relative;
+    left : 400px;
+}
+
+@media screen and (max-width : 900px){
+
+    body{
+        overflow: visible;
+        overflow-x: hidden;
+        background-image: url(./images/interior.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    nav #logo{
+        visibility: hidden;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .call{
+        visibility: hidden;
+    }
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color : #ffffff;
+    }
+
+    .left-section .heading{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    
+    }
+
+    .right-section{
+        margin-top: 150px;
+        margin-left: 400px;
+    }
+    
+    .box-lower{
+        margin-left: 100px;
+        margin-bottom: 400px;
+    }
+    
+   
+}
